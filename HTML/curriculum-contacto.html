@@ -28,12 +28,35 @@
   <!-- Contenido -->
   <section id="acerca_de">
     <article class="article">
-      <div class= "imagen_fondo">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/826px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png" alt="icono Outlook"/>
-        <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="icono Gmail"/>
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github"/>
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174879.png" alt="icono Whatsapp"/>
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="icono Linkedin"/>
+      <div class="imagen_fondo">
+        <li class="icono_contacto"><img class="img_contacto"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/826px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png"
+            alt="icono Outlook" /> <span class="contacto_texto">cristianvranic@hotmail.com</span>
+        </li>
+
+        <li class="icono_contacto"><img class="img_contacto" src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="icono Gmail" /> <span class="contacto_texto">cristianvranic@gmail.com</span>
+        </li>
+
+        <a href="https://github.com/Cristian-Vranic"><li class="icono_contacto"><img class="img_contacto" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github" /> <span class="contacto_texto">github.com/Cristian-Vranic</span>
+        </li></a>
+
+        <a href="https://api.whatsapp.com/send?phone=541160464752"><li class="icono_contacto"><img class="img_contacto" src="https://cdn-icons-png.flaticon.com/512/174/174879.png" alt="icono Whatsapp" /> <span class="contacto_texto">(+54 9 11) 6046-4752</span>
+        </li></a>
+
+        <a href="https://www.linkedin.com/in/cristian-vranic-862443165/"><li class="icono_contacto"><img class="img_contacto" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="icono Linkedin" /> <span class="contacto_texto">linkedin.com/cristian-vranic</span>
+        </li></a>
+        <section>
+          <form action="" method="post" class="formulario_contacto">
+            <label class="etiqueta_contacto">Nombre</label>
+            <input class="input_contacto" type="text" name="nombre" placeholder="Ingrese su nombre..." required/>
+            <label class="etiqueta_contacto">E-mail</label>
+            <input class="input_contacto" type="email" name="email" placeholder="Ingrese su email..." required/>
+            <label class="etiqueta_contacto">Mensaje</label>
+            <input class="input_contacto" id="mensaje" type="text" name="mensaje" placeholder="Ingrese su mensaje"/>
+            <input id="boton_envio" class="input_contacto" type="submit" value="enviar"/>
+
+        </form> 
+      </section>
       </div>
     </article>
   </section>
@@ -48,10 +71,10 @@
       <li><a href="../HTML/curriculum-contacto.html">Información de contacto</a></li>
     </nav>
   </div>
-  
+
   <div class="menú inferior"></div>
 
-      <script src="../JavaScript/curriculum.js"></script>
+  <script src="../JavaScript/curriculum.js"></script>
 </body>
 
 </html>

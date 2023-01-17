@@ -1,19 +1,167 @@
-.imagen_fondo{
-    background-image: url("../Recursos/DSC_0148.jpg");
-    background-size: 100% 100%; 
-    width:100%;
-    height:770px;   
+/* Curriculum experiencia */
+
+.imagen_experiencia{
+    position:relative;
+    background-size:10px;
+    width:100px;
+    height: 100px;
+    left:500px;
+    bottom:120px;
 }
 
-.acerca_de_mi{
-    font-family:'Courier New', Courier, monospace;
+.titulo_experiencia_contenedor{
+    position:relative;  /* Este código establece que los cambios en la posicion que se colocarán son respecto a su posicion normal */
+    width:fit-content;
+    bottom:20px;
+    left:200px;
+    bottom: 55px;
+    
+}
+
+.titulo_experiencia{
+    right:30px;
+    margin:0px;
+    padding:0px;
+}
+
+.contenedor_fecha_experiencia{
+    width:fit-content;
+    
+}
+
+.fecha_experiencia{
+font-size:20px;
+}
+
+/* Curriculum formacion */
+.icono_formacion {
+    background-size: 10%;
+    line-height: 8em;
+    position: relative;
+    margin-left: 10px;
+}
+
+.formacion_texto{
     color:white;
-    padding:.5em;
-    align-items:center;
+    margin-left: 20px;
+    padding: 0px;
     justify-content: center;
-    position:relative;
+    align-items: center;
+    font-size: 140%;
+    line-height: 0px;
+}
+
+
+/* Curriculum tecnologias */
+.titulo_tecnologia {
+    font-size: 5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color:white
+}
+
+.contenedor_titulo_tecnologia {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contenedor_icono_tecnologia {
+    background-size: 50px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.frontend {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.backend {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#SQL{
+    margin-left: 0px;
+}
+
+#php{
+    margin-left: 0px;
+    margin-right:110px;
+}
+
+/* Curriculum contacto */
+.icono_contacto {
+    background-size: 10%;
+    line-height: 8em;
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    
+}
+
+.img_contacto {
+    height: 10%;
+    background-size: 10%;
+    width: 8%;
+}
+
+.contacto_texto {
+    margin-left: 20px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 140%;
+    border-color: cornflowerblue;
+    color:blue;
+}
+
+.input_contacto {
+    margin-left: 10px;
+    width: 30em;
+}
+
+#mensaje {
+    height: 9em;
+}
+
+#boton_envio {
+    margin-top: 10px;
+}
+
+.formulario_contacto {
+    display: grid
+}
+
+.etiqueta_contacto {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+/* Imagen fondo */
+.imagen_fondo {
+    /* background-image: url("../Recursos/DSC_0148.jpg"); */
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1300px;
+    position:fixed;
+    z-index:-1
+}
+
+/* Curriculum-acerca-de */
+.acerca_de_mi {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: .5em;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     top: 4em;
-    z-index:0;
+    z-index: 0;
     font-size: 22px;
 }
 
@@ -46,18 +194,18 @@ h2 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    z-index:4;
+    z-index: 4;
 }
 
 .imagen_abajo {
     height: 60%;
     width: 100%;
-    top:500px;
+    top: 620px;
     position: fixed;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    z-index:4;
+    z-index: 4;
 }
 
 .imagen_arriba_active {
@@ -66,22 +214,22 @@ h2 {
     position: fixed;
     justify-content: center;
     align-items: center;
-    transition: 3s linear;
-    transform:translateY(-700px);
-    z-index:4;
+    transition: 2s linear;
+    transform: translateY(-800px);
+    z-index: 4;
 }
 
 .imagen_abajo_active {
     height: 60%;
     width: 100%;
-    top:500px;
+    top: 500px;
     position: fixed;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition:3s linear;
-    transform: translateY(500px);
-    z-index:4;
+    transition: 2s linear;
+    transform: translateY(800px);
+    z-index: 4;
 }
 
 .imagen_abajo.active:hover {
@@ -108,8 +256,8 @@ h2 {
 #titulo_presentacion {
     z-index: 3;
     font-size: 70px;
-    padding:0px;
-    margin:auto;
+    padding: 0px;
+    margin: auto;
     background-color: white;
 }
 
@@ -117,9 +265,7 @@ h2 {
 /* Menu y cabezal */
 * {
     margin: 0;
-    /* Necesario? */
     padding: 0;
-    /* Necesario? */
     font-family: "Ubuntu", sans-serif;
     /* Tipo de fuente, colocar apropiadamente */
     text-decoration: none;
