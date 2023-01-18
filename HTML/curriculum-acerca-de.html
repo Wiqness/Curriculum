@@ -14,27 +14,7 @@
   </script>
 </head>
 
-<body>
-  <!-- Presentacion -->
-  <div id="img_arriba" class="imagen_arriba">
-    <div id="color_superior" class="separador_color">
-      <button id="boton1" class="boton_falso">
-        Presione aquí
-      </button>
-    </div>
-    <h2 id="nombre_presentacion">Cristian Vranic</h2>
-  </div>
-
-  <div id="img_abajo" class="imagen_abajo">
-    <h2 id="titulo_presentacion">Full Stack Developer</h2>
-    <div id="color_inferior" class="separador_color">
-      <button class="boton_falso">
-        Presione aquí
-      </button>
-    </div>
-  </div>
-  <script src="/JavaScript/curriculum.js"></script>
-
+<body id="body_presentacion" class="body_presentacion">
   <!-- Cabezal y menu -->
   <header>
     <div class="anchura_central">
@@ -45,39 +25,71 @@
     </div>
   </header>
 
-  <section id="acerca_de">
-    <article class="article">
-      <div class= "imagen_fondo">
-        <p id="primer_parrafo" class="acerca_de_mi">Cristian is it Vranic is a 24-year-old health centre receptionist who enjoys social card games, working on cars and swimming. He is kind and brave, but can also be very stingy and a bit untrustworthy.He is argentinian who defines himself as straight. He has a degree in medicine.</p>
+  <!-- Presentacion -->
+  <div id="img_arriba" class="imagen_arriba">
+    <div id="color_superior" class="separador_color">
+      <button id="boton1" class="boton_falso">
+        <span class="texto_boton">Presione aquí</span>
+      </button>
+    </div>
+    <h2 id="nombre_presentacion">Leo Fuller</h2>
+  </div>
 
-        <p class="acerca_de_mi">Physically, Cristian is in pretty good shape. He is average-height with walnut skin, brown hair and blue eyes.</p>
+  <div id="img_abajo" class="imagen_abajo">
+    <h2 id="titulo_presentacion">Full Stack Developer</h2>
+    <div id="color_inferior" class="separador_color">
+      <button class="boton_falso">
+        <span class="texto_boton">Presione aquí</span>
+      </button>
+    </div>
+  </div>
 
-        <p class="acerca_de_mi">He grew up in a middle class neighbourhood. He was raised by his father, his mother having left when he was
-        young.</p>
+  <!--   Contenido -->
+  <div class="imagen_fondo">
+    <article class="contenedor_acerca_de_mi">
+      <p id="primer_parrafo" class="acerca_de_mi">Cras iaculis in lectus vel blandit. Nam eu augue quis ex fermentum
+        porttitor sed et nunc. Pellentesque lorem urna, aliquam id eleifend non, lacinia nec erat. Vivamus accumsan
+        venenatis nisi, eu tempus odio blandit faucibus. Integer vehicula sem in diam facilisis, ac aliquam nulla
+        suscipit. Praesent porta nulla vel diam rutrum pulvinar. </p>
 
-        <p class="acerca_de_mi">He is currently single. His most recent romance was with a lab assistant called Iman Maya Gonzalez, who was the
-        same age as him. They broke up because Iman felt smothered by Cristian's generosity.</p>
+      <p class="acerca_de_mi">Duis maximus eget metus quis bibendum. Aliquam erat volutpat. Aenean varius non tellus sit
+        amet gravida. Phasellus efficitur finibus ipsum, eu elementum elit congue quis. Quisque condimentum, turpis quis
+        hendrerit blandit, sem massa ultrices dui, ac bibendum mi lorem quis libero. Vestibulum faucibus ante ut pretium
+        laoreet. Aenean sed massa in metus rutrum efficitur. </p>
 
-        <p class="acerca_de_mi">Cristian's best friend is a health centre receptionist called Josiah Hill. They get on well most of the time. He
-        also hangs around with Renee Moss and Tia Harrison. They enjoy escapology together.</p>
-      </div>
+      <p class="acerca_de_mi">Aliquam vel magna vehicula, placerat ipsum ac, pretium orci. Fusce porttitor maximus
+        varius. Aenean erat risus, cursus a enim tincidunt, facilisis suscipit nulla. Sed sed est leo. Orci varius
+        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas vehicula blandit accumsan.
+      </p>
+
+      <p class="acerca_de_mi">Suspendisse in volutpat felis. Nullam congue ullamcorper est. Integer suscipit, enim vel
+        ullamcorper maximus, nunc sapien sollicitudin dolor, sit amet aliquet justo ligula vel purus. Curabitur bibendum
+        justo ut tellus viverra mollis. Ut venenatis aliquam purus non interdum. </p>
     </article>
-  </section>
+  </div>
+
 
 
   <div class="menu_navegacion">
     <nav> <!-- Con este elemento puedo agregar links de navegacion internos o externos -->
-      <li><a href="../HTML/curriculum-acerca-de.html">Acerca de mí</a></li>
+      <li><a href="../HTML/curriculum-acerca-de.html">Homepage</a></li>
       <li><a href="../HTML/curriculum-tecnologias.html">Conocimientos tecnológicos</a></li>
       <li><a href="../HTML/curriculum-experiencia.html">Experiencia laboral</a></li>
       <li><a href="../HTML/curriculum-formacion.html">Formación académica e idiomas</a></li>
       <li><a href="../HTML/curriculum-contacto.html">Información de contacto</a></li>
     </nav>
   </div>
-  
-  <div class="menú inferior"></div>
 
-      <script src="../JavaScript/curriculum.js"></script>
+
+
+  <footer class="menu_inferior">
+    <span class="texto_inferior">
+      &nbsp; &nbsp; &nbsp;&nbsp; Curriculum personal V 1.0
+      <br>
+      Argentina Programa curso TICMAS</span>
+  </footer>
+
+  <script src="../JavaScript/curriculum.js"></script>
 </body>
 
 </html>

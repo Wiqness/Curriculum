@@ -1,0 +1,19 @@
+Agregar texto alternativo a todas las imagenes
+
+Revisar que usualmente tengo una section, dentro de un article, dentro de un div, esto parece
+innecesario y dificulta la lectura del código.
+
+Sacar el codigo de la imagen de fondo. La imagen de fondo debe tener
+su propia seccion separada del contenido de la pagina.
+
+Sacar el elemento article de la imagen de fondo
+
+Agregar la funcion para copiar mi mail al portapapeles:
+https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
+
+Hacer que el formulario sea funcional
+
+Sacar mi informacion de contacto personal
+
+
+

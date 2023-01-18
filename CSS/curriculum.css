@@ -1,36 +1,60 @@
 /* Curriculum experiencia */
+.body_presentacion{
+    overflow: hidden;
+}
 
-.imagen_experiencia{
-    position:relative;
-    background-size:10px;
-    width:100px;
+.body_presentacion_active{
+    overflow:auto;
+}
+
+.contenedor_trabajo {
+    width: fit-content
+}
+
+.descripcion_empleo {
+    margin: 0px;
+    padding: 0px;
+    left: 200px;
+    bottom: 110px;
+    position: relative;
+    font-size: .5 em;
+    color: #9c9a9a
+}
+
+.imagen_experiencia {
+    position: relative;
+    background-size: 10px;
+    width: 100px;
     height: 100px;
-    left:500px;
-    bottom:120px;
+    left: 430px;
+    bottom: 120px;
 }
 
-.titulo_experiencia_contenedor{
-    position:relative;  /* Este código establece que los cambios en la posicion que se colocarán son respecto a su posicion normal */
-    width:fit-content;
-    bottom:20px;
-    left:200px;
+.titulo_experiencia_contenedor {
+    position: relative;
+    /* Este código establece que los cambios en la posicion que se colocarán son respecto a su posicion normal */
+    width: fit-content;
+    bottom: 20px;
+    left: 200px;
     bottom: 55px;
-    
+}
+.subtitulo_experiencia{
+    font-size:30px;
 }
 
-.titulo_experiencia{
-    right:30px;
-    margin:0px;
-    padding:0px;
+.titulo_experiencia {
+    right: 30px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 3em;
 }
 
-.contenedor_fecha_experiencia{
-    width:fit-content;
-    
+.contenedor_fecha_experiencia {
+    width: fit-content;
 }
 
-.fecha_experiencia{
-font-size:20px;
+.fecha_experiencia {
+    font-size: 20px;
 }
 
 /* Curriculum formacion */
@@ -41,8 +65,8 @@ font-size:20px;
     margin-left: 10px;
 }
 
-.formacion_texto{
-    color:white;
+.formacion_texto {
+    color: white;
     margin-left: 20px;
     padding: 0px;
     justify-content: center;
@@ -57,7 +81,7 @@ font-size:20px;
     font-size: 5em;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
-    color:white
+    color: white
 }
 
 .contenedor_titulo_tecnologia {
@@ -83,16 +107,12 @@ font-size:20px;
 .backend {
     margin-left: 60px;
     margin-right: 60px;
+    display:flex;
+    justify-content: space-between;
+    
 }
 
-#SQL{
-    margin-left: 0px;
-}
 
-#php{
-    margin-left: 0px;
-    margin-right:110px;
-}
 
 /* Curriculum contacto */
 .icono_contacto {
@@ -101,7 +121,7 @@ font-size:20px;
     position: relative;
     display: flex;
     margin-left: 10px;
-    
+
 }
 
 .img_contacto {
@@ -117,7 +137,7 @@ font-size:20px;
     align-items: center;
     font-size: 140%;
     border-color: cornflowerblue;
-    color:blue;
+    color: blue;
 }
 
 .input_contacto {
@@ -142,16 +162,6 @@ font-size:20px;
     margin-left: 10px;
 }
 
-/* Imagen fondo */
-.imagen_fondo {
-    /* background-image: url("../Recursos/DSC_0148.jpg"); */
-    background-size: 100% 100%;
-    width: 100%;
-    height: 1300px;
-    position:fixed;
-    z-index:-1
-}
-
 /* Curriculum-acerca-de */
 .acerca_de_mi {
     font-family: 'Courier New', Courier, monospace;
@@ -160,13 +170,39 @@ font-size:20px;
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 4em;
     z-index: 0;
-    font-size: 22px;
+    font-size: 30px;
+}
+.contenedor_acerca_de_mi{
+    top:40px;
+    position:relative;
 }
 
+/* Imagen fondo */
+.imagen_fondo {
+    background-image: url("../Recursos/DSC_0148.jpg");
+    background-size: 120% 120%;
+    width: 100%;
+    height: 1300px;
+    z-index: -1;
+}
+
+/* Menu inferior */
+.menu_inferior{
+background-color: rgb(187, 183, 183);
+justify-content: center;
+display:flex;
+position:absolute;
+width:100%;
+height:4%;
+}
+
+.texto_inferior{
+   margin-top:5px; 
+}
 
 /* Presentacion */
+
 h2 {
     font-size: 50px;
     font-weight: bold;
@@ -188,35 +224,35 @@ h2 {
 }
 
 .imagen_arriba {
+    top:0%;
     height: 50%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    z-index: 4;
+    z-index: 1;
 }
 
 .imagen_abajo {
     height: 60%;
     width: 100%;
-    top: 620px;
-    position: fixed;
+    top: 47.5%;
+    position: absolute;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    z-index: 4;
+    z-index: 1;
 }
 
 .imagen_arriba_active {
+    top:0%;
     height: 50%;
     width: 100%;
     position: fixed;
-    justify-content: center;
-    align-items: center;
     transition: 2s linear;
     transform: translateY(-800px);
-    z-index: 4;
+    z-index: 1;
 }
 
 .imagen_abajo_active {
@@ -228,8 +264,8 @@ h2 {
     align-items: center;
     cursor: pointer;
     transition: 2s linear;
-    transform: translateY(800px);
-    z-index: 4;
+    transform: translateY(1000px);
+    z-index: 1;
 }
 
 .imagen_abajo.active:hover {
@@ -238,16 +274,20 @@ h2 {
 
 .boton_falso {
     align-items: center;
-    height: 10%;
-    width: 20%;
+    height: 15%;
+    width: 25%;
     background-color: #5555;
     color: white;
     text-decoration: underline;
     text-decoration-thickness: 2px;
+    border-radius: 15%;
+}
+.texto_boton{
+    font-size:xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 #nombre_presentacion {
-    z-index: 3;
     font-size: 100px;
     margin: auto;
     background-color: white;
@@ -307,7 +347,7 @@ header {
     /* Esta propiedad setea el espacio entre cada linea de texto, al setearlo del mismo tamaño que el contenedor, se reparten 25px hacia arriba y otros 25 hacia abajo */
     font-size: 20px;
     /* Modificar a gusto */
-    z-index: 2;
+    z-index: 1;
     /* Permite que el icono se superponga a cualquier otro elemento que haya debajo */
     border-radius: 10px;
     /* Agrega un borde redondeado al elemento */
@@ -343,6 +383,7 @@ header {
     justify-content: center;
     /* Define como se distribuye el espacio alrededor y entre los items de contenido */
     transition: .6s;
+
 }
 
 .menu_navegacion nav {
@@ -368,6 +409,7 @@ header {
     transform: translateY(50px);
     /*  Esto coloca al texto en una posición de altura específica, junto con la transicion*/
 }
+
 
 .menu_navegacion a::before {
     content: "";
@@ -406,7 +448,7 @@ p {
 .icono_menu.active {
     /* Este código le indica a CSS qué debe con el icono del menus cuando se clickee */
     background: #f1f1f1;
-    color: #2c3a47
+    color: #2c3a47;
 }
 
 .menu_navegacion.active {
