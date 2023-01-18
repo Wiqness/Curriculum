@@ -1,10 +1,6 @@
 Agregar texto alternativo a todas las imagenes
 
-Revisar que usualmente tengo una section, dentro de un article, dentro de un div, esto parece
-innecesario y dificulta la lectura del código.
-
-Sacar el codigo de la imagen de fondo. La imagen de fondo debe tener
-su propia seccion separada del contenido de la pagina.
+Revisar que usualmente tengo una section, dentro de un article, dentro de un div, esto parece innecesario y dificulta la lectura del código.
 
 Sacar el elemento article de la imagen de fondo
 

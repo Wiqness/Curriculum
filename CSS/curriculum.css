@@ -1,52 +1,26 @@
-/* Curriculum experiencia */
-.body_presentacion{
+.body_presentacion {
     overflow: hidden;
 }
 
-.body_presentacion_active{
-    overflow:auto;
+.body_presentacion_active {
+    overflow: auto;
 }
+
+/* Curriculum experiencia */
 
 .contenedor_trabajo {
-    width: fit-content
-}
-
-.descripcion_empleo {
-    margin: 0px;
-    padding: 0px;
-    left: 200px;
-    bottom: 110px;
-    position: relative;
-    font-size: .5 em;
-    color: #9c9a9a
-}
-
-.imagen_experiencia {
-    position: relative;
-    background-size: 10px;
-    width: 100px;
-    height: 100px;
-    left: 430px;
-    bottom: 120px;
-}
-
-.titulo_experiencia_contenedor {
-    position: relative;
-    /* Este código establece que los cambios en la posicion que se colocarán son respecto a su posicion normal */
     width: fit-content;
-    bottom: 20px;
-    left: 200px;
-    bottom: 55px;
-}
-.subtitulo_experiencia{
-    font-size:30px;
+    height:fit-content;
+    position: relative;
+    top: 20px;
 }
 
-.titulo_experiencia {
-    right: 30px;
-    margin: 0px;
-    padding: 0px;
-    font-size: 3em;
+#contenedor_2{
+    top: 110px;
+}
+
+#contenedor_3{
+top:180px;
 }
 
 .contenedor_fecha_experiencia {
@@ -54,7 +28,79 @@
 }
 
 .fecha_experiencia {
-    font-size: 20px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 20px;
+    position: relative;
+    color:white;
+    text-shadow: 2px 2px 5px red;
+}
+
+.titulo_experiencia_contenedor {
+    position: relative;
+    width: fit-content;
+    bottom: 130px;
+    left: 200px;
+    margin: 0px;
+    display:flex;
+    text-shadow: 2px 2px 5px rgb(71, 70, 70);
+    color:white;
+}
+
+.subtitulo_experiencia {
+    font-size: 60px;
+    width:fit-content;
+    font-weight: 500;
+}
+
+.titulo_experiencia {
+    right: 30px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 6em;
+    width:fit-content;
+    height:fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:.9em;
+}
+
+.imagen_experiencia {
+    position: relative;
+    background-size: 10px;
+    width: 150px;
+    height: 150px;
+    left:40px;
+    border-radius: 40px;
+}
+
+#accenture_icono {
+    width: 210px;
+}
+
+#globant_icono{
+width: 210px;
+}
+
+.descripcion_empleo {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    color: #9c9a9a;
+    font-size:23px;
+    line-height: 30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 1000;
+    color:white;
+    text-shadow: 2px 2px 5px rgb(80, 56, 25);
+}
+
+.lista_experiencia{
+    left: 200px;
+    bottom: 110px;
+    height:100px;
+    width:2300px;
+    display:grid;
+    position:relative;
 }
 
 /* Curriculum formacion */
@@ -107,9 +153,9 @@
 .backend {
     margin-left: 60px;
     margin-right: 60px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    
+
 }
 
 
@@ -173,32 +219,49 @@
     z-index: 0;
     font-size: 30px;
 }
-.contenedor_acerca_de_mi{
-    top:40px;
-    position:relative;
+
+.contenedor_acerca_de_mi {
+    top: 40px;
+    position: relative;
 }
 
 /* Imagen fondo */
 .imagen_fondo {
-    background-image: url("../Recursos/DSC_0148.jpg");
+
     background-size: 120% 120%;
     width: 100%;
     height: 1300px;
     z-index: -1;
 }
 
-/* Menu inferior */
-.menu_inferior{
-background-color: rgb(187, 183, 183);
-justify-content: center;
-display:flex;
-position:absolute;
-width:100%;
-height:4%;
+#img_acerca_de {
+    background-image: url("../Recursos/DSC_0148.jpg");
 }
 
-.texto_inferior{
-   margin-top:5px; 
+#img_tecnologia {
+    background-image: url(https://images.techopedia.com/images/uploads/istock-1173805290.jpeg?w=800&h=0&mode=max&quality=70&scale=both);
+}
+
+#img_experiencia {
+    background-image: url(https://www.efficy.com/wp-content/uploads/2020/02/Sales-negociation-closing-900x412.jpg);
+}
+
+#img_formacion{
+    background-image: url(https://carteret.edu/wp-content/uploads/2020/06/graduation.jpg);
+}
+
+/* Menu inferior */
+.menu_inferior {
+    background-color: rgb(187, 183, 183);
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 4%;
+}
+
+.texto_inferior {
+    margin-top: 5px;
 }
 
 /* Presentacion */
@@ -224,7 +287,7 @@ h2 {
 }
 
 .imagen_arriba {
-    top:0%;
+    top: 0%;
     height: 50%;
     width: 100%;
     position: absolute;
@@ -246,7 +309,7 @@ h2 {
 }
 
 .imagen_arriba_active {
-    top:0%;
+    top: 0%;
     height: 50%;
     width: 100%;
     position: fixed;
@@ -282,9 +345,10 @@ h2 {
     text-decoration-thickness: 2px;
     border-radius: 15%;
 }
-.texto_boton{
-    font-size:xx-large;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+.texto_boton {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 #nombre_presentacion {
