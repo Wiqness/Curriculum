@@ -11,5 +11,9 @@ Hacer que el formulario sea funcional
 
 Sacar mi informacion de contacto personal
 
+Hacer que todas las secciones sean responsive
 
+Agregar blur a las imagenes de fondo (propiedad backdrop-filter)
+Unidades para hacer el diseño responsive: vw y vh (viewport-width y viewport-height)
 
+//scoped variables, dentro de un bloque de codigo.
