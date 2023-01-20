@@ -325,6 +325,13 @@
     height: 100%;
 }
 
+#img_contacto {
+    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_494741050_325316.jpg);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 /* Menu inferior */
 .menu_inferior {
     background-color: rgb(187, 183, 183);
