@@ -5,13 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pruebas</title>
+  <title>Leo Fuller: Fullstack Developer</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   <script src="https://kit.fontawesome.com/2e497f9772.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/CSS/curriculum.css" />
   </script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -28,56 +32,105 @@
   <!-- Contenido -->
 
   <div id="img_contacto" class="imagen_fondo">
-    <li class="icono_contacto">
-      <img class="img_contacto"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/826px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png"
-        alt="icono Outlook" />
-      <span class="contacto_texto">
-        cristianvranic@hotmail.com
-      </span>
-    </li>
+    <ul id="lista_formacion">
 
-    <li class="icono_contacto"><img class="img_contacto" src="https://cdn-icons-png.flaticon.com/512/281/281769.png"
-        alt="icono Gmail" /> <span class="contacto_texto">cristianvranic@gmail.com</span>
-    </li>
-
-
-    <li class="icono_contacto">
-      <a href="https://github.com/Cristian-Vranic">
-        <img class="img_contacto" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-          alt="github" />
-        <span class="contacto_texto">github.com/Cristian-Vranic</span>
-      </a>
-    </li>
-
-
-    <a href="https://api.whatsapp.com/send?phone=541160464752">
-      <li class="icono_contacto">
-        <img class="img_contacto" src="https://cdn-icons-png.flaticon.com/512/174/174879.png"
-          alt="icono Whatsapp" /> <span class="contacto_texto">(+54 9 11) 6046-4752</span>
+      <li class="icono_formacion">
+        <div class="ancla_formacion">
+          <img class="img_formacion"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/826px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png"
+            alt="icono Outlook" />
+          <span class="contacto_texto">
+            Outlook
+          </span>
+        </div>
+        <div class="contenedor_texto_formacion">
+          <button id="boton_outlook" onclick="copiarMail1()" 
+          class="boton_contacto" > <span id="email_outlook" class="email_contacto">mailUsual@hotmail.com 
+             </span> <i class="fa fa-copy"></i></button>
+        </div>
       </li>
-    </a>
 
-    <a href="https://www.linkedin.com/in/cristian-vranic-862443165/">
-      <li class="icono_contacto">
-        <img class="img_contacto" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-          alt="icono Linkedin" />
-           <span class="contacto_texto">linkedin.com/cristian-vranic</span>
+      <li class="icono_formacion">
+        <div class="ancla_formacion">
+          <img class="img_formacion"
+            src="https://cdn-icons-png.flaticon.com/512/281/281769.png"
+            alt="icono Outlook" />
+          <span class="contacto_texto">
+            Gmail
+          </span>
+        </div>
+        <div class="contenedor_texto_formacion">
+          <button id="boton_gmail" onclick="copiarMail2()" class="boton_contacto"> 
+            <span id="email_gmail" class="email_contacto">mailUsual@gmail.com </span> <i class="fa fa-copy" id="icono_copiar2"></i></button>
+        </div>
       </li>
-    </a>
+
+      <li class="icono_formacion">
+        <a href="https://api.whatsapp.com/send?phone=541133441122" class="ancla_formacion">
+          <img id="arg_programa_icono" class="img_formacion" src="https://cdn-icons-png.flaticon.com/512/174/174879.png"
+            alt="Icono de Argentina Programa" />
+          <span class="contacto_texto">
+            Whatsapp
+          </span>
+        </a>
+        <div class="contenedor_texto_formacion">
+          <a href="https://api.whatsapp.com/send?phone=541133441122">
+            <span class="descripcion_contacto">
+              (+54 9 11) 3344-1122
+            </span>
+          </a>
+        </div>
+      </li>
+
+      <li class="icono_formacion" >
+        <a href="https://github.com/Cristian-Vranic" class="ancla_formacion">
+          <img class="img_formacion"
+            src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="icono GitHub" />
+          <span class="contacto_texto">
+            GitHub
+          </span>
+        </a>
+        <div class="contenedor_texto_formacion">
+          <a href="https://github.com/Wiqness">
+            <span class="descripcion_contacto">
+              https://github.com/cristian-vranic
+            </span>
+          </a>
+        </div>
+      </li>
+
+      <li class="icono_formacion" >
+        <a href="https://www.linkedin.com/in/cristian-vranic-862443165/" class="ancla_formacion">
+          <img class="img_formacion" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="icono Linkedin" />
+          <span class="contacto_texto">
+            Linkedin
+          </span>
+        </a>
+        <div class="contenedor_texto_formacion">
+          <a href="https://www.linkedin.com/in/cristian-vranic-862443165/">
+            <span class="descripcion_contacto">
+              linkedin.com/in/cristian-vranic
+            </span>
+          </a>
+        </div>
+      </li>
+    </ul>
+
     <section>
       <form action="" method="post" class="formulario_contacto">
-        <label class="etiqueta_contacto">Nombre</label>
-        <input class="input_contacto" type="text" name="nombre" placeholder="Ingrese su nombre..." required />
-        <label class="etiqueta_contacto">E-mail</label>
-        <input class="input_contacto" type="email" name="email" placeholder="Ingrese su email..." required />
-        <label class="etiqueta_contacto">Mensaje</label>
-        <input class="input_contacto" id="mensaje" type="text" name="mensaje" placeholder="Ingrese su mensaje" />
-        <input id="boton_envio" class="input_contacto" type="submit" value="enviar" />
+        <label class="etiqueta_contacto" for="nombre">Nombre</label>
+        <input class="input_contacto" id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre..." required />
+        <label for="email" class="etiqueta_contacto">E-mail</label>
+        <input id="email" class="input_contacto" type="email" name="email" placeholder="Ingrese su email..." required />
+        <label for="mensaje" class="etiqueta_contacto">Mensaje</label>
+        <input id="mensaje"  class="input_contacto"type="text" name="mensaje" placeholder="Ingrese su mensaje" required />
+        <input id="boton_envio" class="input_contacto" type="submit" value="Enviar" />
 
       </form>
     </section>
+    <br/>
   </div>
+
 
 
   <div class="menu_navegacion">

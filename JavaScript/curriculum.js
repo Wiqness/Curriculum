@@ -18,6 +18,18 @@ $(".imagen_arriba").click(function () {
 });
 
 
+function copiarMail1(){
+var texto_copiado = document.getElementById("email_outlook").innerHTML;
+navigator.clipboard.writeText(texto_copiado)
+alert("Se ha copiado: "+texto_copiado + " al portapapeles")
+}
+
+function copiarMail2(){
+    var texto_copiado = document.getElementById("email_gmail").innerHTML;
+    navigator.clipboard.writeText(texto_copiado)
+    alert("Se ha copiado: "+texto_copiado + " al portapapeles")
+    }
+
 
 /*var person_data;
 fetch("../JSON/info.json") /* Al ser una promesa tarda un tiempo en obtener la informacion (función asíncrona) */

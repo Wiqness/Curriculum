@@ -1,11 +1,6 @@
 Agregar texto alternativo a todas las imagenes
 
-Revisar que usualmente tengo una section, dentro de un article, dentro de un div, esto parece innecesario y dificulta la lectura del código.
-
-Sacar el elemento article de la imagen de fondo
-
-Agregar la funcion para copiar mi mail al portapapeles:
-https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
+Corregir z-index del footer porque se coloca por encima del menu
 
 Hacer que el formulario sea funcional
 
@@ -13,7 +8,13 @@ Sacar mi informacion de contacto personal
 
 Hacer que todas las secciones sean responsive
 
+Preguntar a Franco como unificar las dos funciones de JS que copian texto al portapapeles
+
 Agregar blur a las imagenes de fondo (propiedad backdrop-filter)
 Unidades para hacer el diseño responsive: vw y vh (viewport-width y viewport-height)
 
 //scoped variables, dentro de un bloque de codigo.
+
+Por si quisiera que la alerta de copiado sea otra: https://www.w3schools.com/howto/howto_js_copy_clipboard.asp?fbclid=IwAR1OFK0XK49MwmzHepjHPyhiqh_Frp79YhvJDf9aypQ7Mz_6M585y3A3WJE puedo usar este codigo
+
+Puede hacerse funcional el texto usando JS?
