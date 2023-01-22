@@ -1,20 +1,19 @@
-Agregar texto alternativo a todas las imagenes
-
-Corregir z-index del footer porque se coloca por encima del menu
-
-Hacer que el formulario sea funcional
-
-Sacar mi informacion de contacto personal
-
-Hacer que todas las secciones sean responsive
+¿Puede hacerse funcional el formulario usando JS? Preguntar a Franco
 
 Preguntar a Franco como unificar las dos funciones de JS que copian texto al portapapeles
 
-Agregar blur a las imagenes de fondo (propiedad backdrop-filter)
+Hacer que todas las secciones sean responsive
+
+Idea: para que sea responsive, el alto de la imagen de fondo debe ser igual al alto del body
+
 Unidades para hacer el diseño responsive: vw y vh (viewport-width y viewport-height)
 
-//scoped variables, dentro de un bloque de codigo.
+Agregar un elemento ancla a imagenes de tecnologia, que te lleven a la documentacion de cada lenguaje (en el caso de office capaz me conviene cambiar la imagen por tres distintas, en vez de una sola)
+
+Seria ideal que en el sector de contacto, el placeholder al igual que lo que se escribe, comience desde arriba a la izquierda del contenedor.
+
+Seria ideal que la imagen de fondo se encuentre separada del resto de elementos. El hecho de que la imagen de fondo sea el contenedor sobre lo que se encuentra el resto de elementos no es ideal. 
 
 Por si quisiera que la alerta de copiado sea otra: https://www.w3schools.com/howto/howto_js_copy_clipboard.asp?fbclid=IwAR1OFK0XK49MwmzHepjHPyhiqh_Frp79YhvJDf9aypQ7Mz_6M585y3A3WJE puedo usar este codigo
 
-Puede hacerse funcional el texto usando JS?
+Agregar blur a las imagenes de fondo (propiedad backdrop-filter)
