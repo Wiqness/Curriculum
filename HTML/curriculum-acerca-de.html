@@ -6,19 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leo Fuller: Fullstack Developer</title>
+
+  <!--  La siguiente seccion de links es para iconos y funcionalidades del menu -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   <script src="https://kit.fontawesome.com/2e497f9772.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/CSS/curriculum.css" />
-  </script>
+  <link rel="stylesheet" href="../CSS/curriculum.css" />
+
+  <!--  La siguiente seccion de links es para el icono del head -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 </head>
 
+
 <body id="body_presentacion" class="body_presentacion">
+  <!-- El nombre del body en la homepage evita que se pueda scrollear en la pantalla de presentacion -->
+
   <!-- Cabezal y menu -->
   <header>
     <div class="anchura_central">
@@ -30,21 +36,23 @@
   </header>
 
   <!-- Presentacion -->
-  <div id="img_arriba" class="imagen_arriba">
-    <div id="color_superior" class="separador_color">
-      <button id="boton1" class="boton_falso">
-        <span class="texto_boton">Presione aquí</span>
-      </button>
+  <div class="contenedor_presentacion" id="id_contenedor_presentacion">
+    <div id="img_arriba" class="imagen_arriba">
+      <div id="color_superior" class="separador_color">
+        <button id="boton1" class="boton_falso">
+          <span class="texto_boton">Presione aquí</span>
+        </button>
+      </div>
+      <h2 id="nombre_presentacion" class="texto_presentacion">Leo Fuller</h2>
     </div>
-    <h2 id="nombre_presentacion">Leo Fuller</h2>
-  </div>
 
-  <div id="img_abajo" class="imagen_abajo">
-    <h2 id="titulo_presentacion">Full Stack Developer</h2>
-    <div id="color_inferior" class="separador_color">
-      <button class="boton_falso">
-        <span class="texto_boton">Presione aquí</span>
-      </button>
+    <div id="img_abajo" class="imagen_abajo">
+      <h2 id="titulo_presentacion" class="texto_presentacion">Full Stack Developer</h2>
+      <div id="color_inferior" class="separador_color">
+        <button class="boton_falso">
+          <span class="texto_boton">Presione aquí</span>
+        </button>
+      </div>
     </div>
   </div>
 
@@ -73,7 +81,7 @@
   </div>
 
 
-
+  <!-- Esto tambien pertenece al menu de navegacion de la pagina -->
   <div class="menu_navegacion">
     <nav> <!-- Con este elemento puedo agregar links de navegacion internos o externos -->
       <li><a href="../HTML/curriculum-acerca-de.html">Homepage</a></li>
@@ -85,7 +93,7 @@
   </div>
 
 
-
+  <!-- Pie de pagina -->
   <footer class="menu_inferior">
     <span class="texto_inferior">
       &nbsp; &nbsp; &nbsp;&nbsp; Curriculum personal V 1.0

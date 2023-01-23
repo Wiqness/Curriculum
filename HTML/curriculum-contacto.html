@@ -6,12 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leo Fuller: Fullstack Developer</title>
+
+  <!--  La siguiente seccion de links es para iconos y funcionalidades del menu -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   <script src="https://kit.fontawesome.com/2e497f9772.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/CSS/curriculum.css" />
-  </script>
+  <link rel="stylesheet" href="../CSS/curriculum.css" />
+
+  <!--  La siguiente seccion de links es para el icono del head -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,7 +35,9 @@
   <!-- Contenido -->
 
   <div id="img_contacto" class="imagen_fondo">
-    <ul id="lista_formacion">
+    <ul id="lista_formacion"> <!-- Cambiar esto por clase, no id -->
+
+      <!-- La lista de contacto tiene el mismo formato que el apartado de formacion, es por eso que se mantiene el nombre de algunas de las clases -->
 
       <li class="icono_formacion">
         <div class="ancla_formacion">
@@ -44,31 +49,37 @@
           </span>
         </div>
         <div class="contenedor_texto_formacion">
-          <button id="boton_outlook" onclick="copiarMail1()" 
-          class="boton_contacto" > <span id="email_outlook" class="email_contacto">mailUsual@hotmail.com 
-             </span> <i class="fa fa-copy"></i></button>
+          <button id="boton_outlook" onclick="copiarMail1()" class="boton_contacto">
+            <span id="email_outlook" class="email_contacto">
+              mailUsual@hotmail.com
+            </span>
+            <i class="fa fa-copy"></i>
+          </button>
         </div>
       </li>
 
       <li class="icono_formacion">
         <div class="ancla_formacion">
-          <img class="img_formacion"
-            src="https://cdn-icons-png.flaticon.com/512/281/281769.png"
-            alt="icono Outlook" />
+          <img class="img_formacion" src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="icono Gmail" />
           <span class="contacto_texto">
             Gmail
           </span>
         </div>
         <div class="contenedor_texto_formacion">
-          <button id="boton_gmail" onclick="copiarMail2()" class="boton_contacto"> 
-            <span id="email_gmail" class="email_contacto">mailUsual@gmail.com </span> <i class="fa fa-copy" id="icono_copiar2"></i></button>
+          <button id="boton_gmail" onclick="copiarMail2()" class="boton_contacto">
+            <span id="email_gmail" class="email_contacto">
+              mailUsual@gmail.com
+            </span>
+            <i class="fa fa-copy" id="icono_copiar2"></i>
+          </button>
         </div>
       </li>
 
       <li class="icono_formacion">
-        <a href="https://api.whatsapp.com/send?phone=541133441122" class="ancla_formacion" target="_blank" rel="noopener noreferrer">
-          <img id="arg_programa_icono" class="img_formacion" src="https://cdn-icons-png.flaticon.com/512/174/174879.png"
-            alt="Icono de Argentina Programa" />
+        <a href="https://api.whatsapp.com/send?phone=541133441122" class="ancla_formacion" target="_blank"
+          rel="noopener noreferrer">
+          <img class="img_formacion" src="https://cdn-icons-png.flaticon.com/512/174/174879.png"
+            alt="Icono de Whatsapp" />
           <span class="contacto_texto">
             Whatsapp
           </span>
@@ -82,7 +93,7 @@
         </div>
       </li>
 
-      <li class="icono_formacion" >
+      <li class="icono_formacion">
         <a href="https://github.com/Cristian-Vranic" class="ancla_formacion" target="_blank" rel="noopener noreferrer">
           <img class="img_formacion"
             src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="icono GitHub" />
@@ -99,8 +110,9 @@
         </div>
       </li>
 
-      <li class="icono_formacion" >
-        <a href="https://www.linkedin.com/in/cristian-vranic-862443165/" class="ancla_formacion" target="_blank" rel="noopener noreferrer">
+      <li class="icono_formacion">
+        <a href="https://www.linkedin.com/in/cristian-vranic-862443165/" class="ancla_formacion" target="_blank"
+          rel="noopener noreferrer">
           <img class="img_formacion" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="icono Linkedin" />
           <span class="contacto_texto">
             Linkedin
@@ -119,20 +131,22 @@
     <section>
       <form action="" method="post" class="formulario_contacto">
         <label class="etiqueta_contacto" for="nombre">Nombre</label>
-        <input class="input_contacto" id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre..." required />
+        <input class="input_contacto" id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre..."
+          required />
         <label for="email" class="etiqueta_contacto">E-mail</label>
         <input id="email" class="input_contacto" type="email" name="email" placeholder="Ingrese su email..." required />
         <label for="mensaje" class="etiqueta_contacto">Mensaje</label>
-        <input id="mensaje"  class="input_contacto"type="text" name="mensaje" placeholder="Ingrese su mensaje" required />
+        <input id="mensaje" class="input_contacto" type="text" name="mensaje" placeholder="Ingrese su mensaje"
+          required />
         <input id="boton_envio" class="input_contacto" type="submit" value="Enviar" />
 
       </form>
     </section>
-    <br/>
+    <br />
   </div>
 
 
-
+  <!-- Esto tambien pertenece al menu de navegacion de la pagina -->
   <div class="menu_navegacion">
     <nav> <!-- Con este elemento puedo agregar links de navegacion internos o externos -->
       <li><a href="../HTML/curriculum-acerca-de.html">Homepage</a></li>
@@ -143,6 +157,7 @@
     </nav>
   </div>
 
+  <!-- Pie de pagina -->
   <footer class="menu_inferior">
     &nbsp; &nbsp; &nbsp;&nbsp; Curriculum personal V 1.0
     <br>

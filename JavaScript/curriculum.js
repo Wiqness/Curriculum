@@ -1,22 +1,25 @@
+/* Comportamiento menu */
 $(".icono_menu").click(function () {
     $(this).toggleClass("active");
     $(".menu_navegacion").toggleClass("active"); /* toggleClass permite agregar una nueva clase para un objeto, pero también permite sacarla si ya está puesta previamente */
     $(".icono_menu i").toggleClass("fa-times");
  /* Esto debería cambiar el icono del menu a una x al clickearse, no funciona porque no se está cargando la fuente correctamente*/
+
 });
 
-$(".imagen_abajo").click(function () {
+
+/* Comportamiento presentacion homepage */
+$(".contenedor_presentacion").click(function () {
     document.getElementById("img_arriba").className = "imagen_arriba_active";
+
     document.getElementById("img_abajo").className = "imagen_abajo_active";
+
     document.getElementById("body_presentacion").className = "body_presentacion_active";
+
+    document.getElementById("id_contenedor_presentacion").className = "contenedor_presentacion_active";
 });
 
-$(".imagen_arriba").click(function () {
-    document.getElementById("img_arriba").className = "imagen_arriba_active";
-    document.getElementById("img_abajo").className = "imagen_abajo_active";
-    document.getElementById("body_presentacion").className = "body_presentacion_active";
-});
-
+/* Funciones para copiar al portapapeles */
 
 function copiarMail1(){
 var texto_copiado = document.getElementById("email_outlook").innerHTML;
@@ -31,7 +34,9 @@ function copiarMail2(){
     }
 
 
-/*var person_data;
+
+
+    /*var person_data;
 fetch("../JSON/info.json") /* Al ser una promesa tarda un tiempo en obtener la informacion (función asíncrona) */
     /*.then((res) => res.json())
     .then((json) => {
