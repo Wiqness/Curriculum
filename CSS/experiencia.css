@@ -1,0 +1,83 @@
+
+.contenedor_trabajo {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin-top: 1.2vw;
+    display: flex;
+    gap: 1.5vw;
+}
+
+.descripcion_y_titulo_contenedor {
+    width: 100%;
+}
+
+.contenedor_fecha_experiencia {
+    display: flex;
+    flex-direction: column;
+}
+
+.fecha_experiencia {
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2vh;
+    position: relative;
+    color: white;
+    text-shadow: .2vh .2vh .5vh red;
+}
+
+.titulo_experiencia_contenedor {
+    position: relative;
+    margin: 0px;
+    display: flex;
+    text-shadow: .4vh .4vh 1vh rgb(71, 70, 70); /* 2px 2px 5px */
+    color: white;
+}
+
+.titulo_experiencia {
+    margin: 0px;
+    padding: 0px;
+    font-size: 4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 3.3vw;
+}
+
+.subtitulo_experiencia {
+    font-size: 2.9vw;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.imagen_experiencia {
+    position: relative;
+    width: 5.5vw;
+    height: 5.5vw;
+    border-radius: 1.5vw;
+    margin-left: 1.5vw;
+}
+
+#accenture {
+    width: 6vw;
+}
+
+#globant_icono {
+    width: 9vw;
+}
+
+.lista_experiencia{
+    margin:0px;
+}
+
+.descripcion_empleo {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    color: #9c9a9a;
+    font-size: 1vw;
+    line-height: 1.1vw;  /* 30px */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    color: white;
+    text-shadow: .2vw .2vw .5vw rgb(80, 56, 25);
+}
+

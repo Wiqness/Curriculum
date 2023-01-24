@@ -1,0 +1,38 @@
+.lista_tecnologias{
+    display:flex;
+    flex-direction: column;
+}
+
+.titulo_tecnologia {
+    font-size: 2.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: white;
+    text-shadow: .25vw .25vw .5vw rgb(20, 202, 36);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 3vh;
+}
+
+.contenedor_icono_tecnologia {
+    display: flex;
+    justify-content: center;
+}
+
+#office{
+    width:39vw;
+
+}
+
+.icono_tecnologia{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    width:10vw;
+}
+
+#php{
+    width:15vw;
+    margin-right:3vw;
+    margin-left:3vw;
+}

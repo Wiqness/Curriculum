@@ -1,0 +1,37 @@
+.imagen_fondo {
+    background-size: 120% 120%;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+#img_tecnologia {
+    background-image: url(https://images.techopedia.com/images/uploads/istock-1173805290.jpeg?w=800&h=0&mode=max&quality=70&scale=both);
+}
+
+
+#img_experiencia {
+    background-image: url(https://www.efficy.com/wp-content/uploads/2020/02/Sales-negociation-closing-900x412.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 0vw;
+    height: 100vh;
+}
+
+#img_formacion {
+    background-image: url(https://carteret.edu/wp-content/uploads/2020/06/graduation.jpg);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#img_contacto {
+    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_494741050_325316.jpg);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#img_acerca_de {
+    background-image: url("../Recursos/DSC_0148.jpg");
+}

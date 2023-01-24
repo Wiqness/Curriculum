@@ -1,31 +1,15 @@
-Crear un archivo CSS para cada HTML
-
 Sacar los comentarios de HTML y CSS que sirven para saber qué hace cada cosa
-
-En CSS juntar aquellas propiedades que se comparten entre distintos elementos. Recordar que puedo escribir en el selector: .clase1, .clase2{propiedades} de esta manera, evito repetir tanto código
 
 ¿Puede hacerse funcional el formulario usando JS? Preguntar a Franco
 
 Preguntar a Franco como unificar las dos funciones de JS que copian texto al portapapeles
 
-Hacer que todas las secciones sean responsive
+Hacer que el menu sea responsive, no lo es
 
-Idea: para que sea responsive, el alto de la imagen de fondo debe ser igual al alto del body
-
-Unidades para hacer el diseño responsive: vw y vh (viewport-width y viewport-height)
-
-Agregar un elemento ancla a imagenes de tecnologia, que te lleven a la documentacion de cada lenguaje (en el caso de office capaz me conviene cambiar la imagen por tres distintas, en vez de una sola)
-
-cambiar la clase del menu inferior a pie de pagina
+Tener en cuenta que para que sea responsive no solo alcanza con usar las unidades vh y vw, tambien se debe aplicar media queries que permitan que las letras se mantengan de un tamaño grande y legible, sin necesidad de hacer zoom. Agregar estos media queries. ¿Esto es asi? Preguntar a Franco
 
 Agregar codigo para que el menu tenga overflow: hidden y que no se pueda scrollear al abrir el menu de navegacion
 
-
-Hacer que el menu sea responsive, no lo es
-
-
 Seria ideal que en el sector de contacto, el placeholder al igual que lo que se escribe, comience desde arriba a la izquierda del contenedor.
-
-Por si quisiera que la alerta de copiado sea otra: https://www.w3schools.com/howto/howto_js_copy_clipboard.asp?fbclid=IwAR1OFK0XK49MwmzHepjHPyhiqh_Frp79YhvJDf9aypQ7Mz_6M585y3A3WJE puedo usar este codigo
 
 Agregar blur a las imagenes de fondo (propiedad backdrop-filter)

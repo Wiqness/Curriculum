@@ -12,8 +12,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   <script src="https://kit.fontawesome.com/2e497f9772.js" crossorigin="anonymous"></script>
+  <!-- La siguiente seccion de links es para diseño de los elementos del contenido -->
   <link rel="stylesheet" href="../CSS/curriculum.css" />
-
+  <link rel="stylesheet" href="../CSS//img_fondo.css" />
+  <link rel="stylesheet" href="../CSS/formacion.css" />
+  <link rel="stylesheet" href="../CSS/contacto.css" />
+  <link rel="stylesheet" href="../CSS/pie_de_pagina.css" />
   <!--  La siguiente seccion de links es para el icono del head -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -21,7 +25,7 @@
   <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body>
+<body id="body_contacto">
   <!-- Cabezal y menu -->
   <header>
     <div class="anchura_central">
@@ -41,7 +45,7 @@
 
       <li class="icono_formacion">
         <div class="ancla_formacion">
-          <img class="img_formacion"
+          <img class="imagen_contacto"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/826px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png"
             alt="icono Outlook" id="outlook" />
           <span class="contacto_texto">
@@ -60,7 +64,7 @@
 
       <li class="icono_formacion">
         <div class="ancla_formacion">
-          <img class="img_formacion" src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="icono Gmail" />
+          <img id="icono_gmail" class="imagen_contacto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7arWLLMEhtS_KbF_VBH4Dtx90trU72YRF7bdENKyu2eJw0fTOf33w7odu-IJ144hKJ_A&usqp=CAU" alt="icono Gmail" />
           <span class="contacto_texto">
             Gmail
           </span>
@@ -78,7 +82,7 @@
       <li class="icono_formacion">
         <a href="https://api.whatsapp.com/send?phone=541133441122" class="ancla_formacion" target="_blank"
           rel="noopener noreferrer">
-          <img class="img_formacion" src="https://cdn-icons-png.flaticon.com/512/174/174879.png"
+          <img class="imagen_contacto" src="https://cdn-icons-png.flaticon.com/512/174/174879.png"
             alt="Icono de Whatsapp" />
           <span class="contacto_texto">
             Whatsapp
@@ -95,7 +99,7 @@
 
       <li class="icono_formacion">
         <a href="https://github.com/Cristian-Vranic" class="ancla_formacion" target="_blank" rel="noopener noreferrer">
-          <img class="img_formacion"
+          <img class="imagen_contacto"
             src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="icono GitHub" />
           <span class="contacto_texto">
             GitHub
@@ -113,7 +117,7 @@
       <li class="icono_formacion">
         <a href="https://www.linkedin.com/in/cristian-vranic-862443165/" class="ancla_formacion" target="_blank"
           rel="noopener noreferrer">
-          <img class="img_formacion" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="icono Linkedin" />
+          <img class="imagen_contacto" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="icono Linkedin" />
           <span class="contacto_texto">
             Linkedin
           </span>
@@ -138,7 +142,7 @@
         <label for="mensaje" class="etiqueta_contacto">Mensaje</label>
         <input id="mensaje" class="input_contacto" type="text" name="mensaje" placeholder="Ingrese su mensaje"
           required />
-        <input id="boton_envio" class="input_contacto" type="submit" value="Enviar" />
+        <input id="boton_envio" class="etiqueta_contacto" type="submit" value="Enviar" />
 
       </form>
     </section>

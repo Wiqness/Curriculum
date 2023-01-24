@@ -1,90 +1,87 @@
-/* #lista_formacion {
+#lista_formacion {
     width: 100%;
     height: 75%;
     display: flex;
     flex-direction: column;
-} */
+}
 
 .icono_formacion {
     display: flex;
-    margin-left: 3vh;
+    height: 25%;
+    margin-left: 10px;
     width: 98%;
+    gap: 20px;
     /* Para evitar movimientos horizontales en otros dispositivos */
-    gap: 3vh;
 }
 
 .ancla_formacion {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 300px;
     justify-content: center;
     align-items: center;
-    width: 42vh;
 }
 
 .img_formacion {
-    width: 42vh;
-    margin: 0px;
+    width: 300px;
 }
 
 .formacion_texto {
-    margin-left: 3vh;
+    margin-left: 20px;
     position: relative;
-    margin-bottom: 1.3vh;
+    bottom: .2em;
     color: white;
-    font-size: 5vh;
+    font-size: 40px;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: .2vh .2vh .1vh rgb(0, 0, 0);
-    /* 2px 2px 1px */
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
 }
 
 .contenedor_texto_formacion {
     align-items: center;
     justify-content: center;
     display: flex;
+    /*     background-color: white;
+    opacity: .8; */
 }
 
 .descripcion_formacion {
     color: white;
-    font-size: 4vh;
+    font-size: 190%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
-    text-shadow: .5vh .5vh 1vh rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
 #carrera {
-    font-size: 7.5vh;
+    font-size: 50px;
 }
 
 #arg_programa_icono {
-    width: 36vh;
-    margin: 0px 1vh 1vh 1vh;
+    width: 250px;
+    height: 90%;
+    margin: 0px 40px 10px 25px;
 }
 
-#titulo_icono_linkedin{
-    margin-left:5vh
-}
-
-#linkedin_elemento_lista{
-    margin:0px;
+.idiomas_formacion {
+    position: relative;
+    height: 10%;
 }
 
 .idiomas_texto {
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    text-shadow: .5vh .5vh 1vh rgb(181, 20, 202);
+    text-shadow: 5px 5px 10px rgb(181, 20, 202);
 }
 
 #contenedor_idiomas_texto {
     display: flex;
     justify-content: space-around;
-    font-size: 7vh;
+    font-size: 50px;
     font-weight: 600;
 }
 
 #titulo_idiomas {
-    font-size: 9vh;
-    display: flex;
-    justify-content: center;
-    font-weight: 800;
+    font-size: 70px;
 }

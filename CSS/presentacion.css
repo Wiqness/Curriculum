@@ -1,0 +1,100 @@
+/* Presentacion */
+.body_presentacion {
+    overflow: hidden;
+}
+
+.body_presentacion_active {
+    overflow: auto;
+}
+
+.contenedor_presentacion{
+display:flex;
+flex-direction: column;
+height:100vh;
+}
+
+.contenedor_presentacion_active{
+    position:absolute;
+}
+
+.separador_color {
+    background-color: brown;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 44vh;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_arriba, .imagen_abajo{
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.imagen_arriba, .imagen_arriba_active {
+    top: 0%;
+    height: 50vh;
+}
+
+.imagen_abajo, .imagen_abajo_active {
+    height: 60vh;
+    top: 53%;
+}
+
+.imagen_arriba_active, .imagen_abajo_active {
+    width: 100%;
+    position: fixed;
+    transition: 3.1s linear;
+    transform: translateY(-100vh);
+    z-index: 1;
+}
+
+.imagen_abajo_active {
+    transform: translateY(100vh);
+}
+
+.imagen_abajo.active:hover {
+    transform: translateY(100vh);
+}
+
+.boton_falso {
+    align-items: center;
+    height: 8vh;
+    width: 20vw; 
+    background-color: #5555;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: .15vw;
+    border-radius: 15%;
+}
+
+.texto_boton {
+    font-size: 3.7vh; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#nombre_presentacion, #titulo_presentacion{
+    margin:auto;
+    background-color: white;
+}
+
+.texto_presentacion {
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#nombre_presentacion {
+    font-size: 9.5vh;
+}
+
+#titulo_presentacion {
+    font-size: 6.5vh; 
+}
