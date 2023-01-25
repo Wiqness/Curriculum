@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   <script src="https://kit.fontawesome.com/2e497f9772.js" crossorigin="anonymous"></script>
   <!-- La siguiente seccion de links es para diseño de los elementos del contenido -->
-  <link rel="stylesheet" href="../CSS/curriculum.css" />
+  <link rel="stylesheet" href="../CSS/curriculum_menu.css" />
   <link rel="stylesheet" href="../CSS//img_fondo.css" />
   <link rel="stylesheet" href="../CSS/formacion.css" />
   <link rel="stylesheet" href="../CSS/contacto.css" />
@@ -31,7 +31,7 @@
     <div class="anchura_central">
       <h1>Información de contacto</h1>
       <div class="icono_menu">
-        <i class="	fas fa-list-ul"></i> <!-- Agrego icono de alineacion derecha-->
+        <i class="	fas fa-list-ul"></i>
       </div>
     </div>
   </header>
@@ -39,7 +39,7 @@
   <!-- Contenido -->
 
   <div id="img_contacto" class="imagen_fondo">
-    <ul id="lista_formacion"> <!-- Cambiar esto por clase, no id -->
+    <ul>
 
       <!-- La lista de contacto tiene el mismo formato que el apartado de formacion, es por eso que se mantiene el nombre de algunas de las clases -->
 
@@ -53,7 +53,7 @@
           </span>
         </div>
         <div class="contenedor_texto_formacion">
-          <button id="boton_outlook" onclick="copiarMail1()" class="boton_contacto">
+          <button id="boton_outlook" class="boton_contacto">
             <span id="email_outlook" class="email_contacto">
               mailUsual@hotmail.com
             </span>
@@ -64,13 +64,15 @@
 
       <li class="icono_formacion">
         <div class="ancla_formacion">
-          <img id="icono_gmail" class="imagen_contacto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7arWLLMEhtS_KbF_VBH4Dtx90trU72YRF7bdENKyu2eJw0fTOf33w7odu-IJ144hKJ_A&usqp=CAU" alt="icono Gmail" />
+          <img id="icono_gmail" class="imagen_contacto"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7arWLLMEhtS_KbF_VBH4Dtx90trU72YRF7bdENKyu2eJw0fTOf33w7odu-IJ144hKJ_A&usqp=CAU"
+            alt="icono Gmail" />
           <span class="contacto_texto">
             Gmail
           </span>
         </div>
         <div class="contenedor_texto_formacion">
-          <button id="boton_gmail" onclick="copiarMail2()" class="boton_contacto">
+          <button id="boton_gmail" class="boton_contacto">
             <span id="email_gmail" class="email_contacto">
               mailUsual@gmail.com
             </span>
@@ -117,7 +119,8 @@
       <li class="icono_formacion">
         <a href="https://www.linkedin.com/in/cristian-vranic-862443165/" class="ancla_formacion" target="_blank"
           rel="noopener noreferrer">
-          <img class="imagen_contacto" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="icono Linkedin" />
+          <img class="imagen_contacto" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+            alt="icono Linkedin" />
           <span class="contacto_texto">
             Linkedin
           </span>
@@ -140,8 +143,8 @@
         <label for="email" class="etiqueta_contacto">E-mail</label>
         <input id="email" class="input_contacto" type="email" name="email" placeholder="Ingrese su email..." required />
         <label for="mensaje" class="etiqueta_contacto">Mensaje</label>
-        <input id="mensaje" class="input_contacto" type="text" name="mensaje" placeholder="Ingrese su mensaje"
-          required />
+        <textarea id="mensaje" class="input_contacto" type="text" name="mensaje" placeholder="Ingrese su mensaje"
+          required> </textarea>
         <input id="boton_envio" class="etiqueta_contacto" type="submit" value="Enviar" />
 
       </form>
@@ -152,7 +155,7 @@
 
   <!-- Esto tambien pertenece al menu de navegacion de la pagina -->
   <div class="menu_navegacion">
-    <nav> <!-- Con este elemento puedo agregar links de navegacion internos o externos -->
+    <nav>
       <li><a href="../HTML/curriculum-acerca-de.html">Homepage</a></li>
       <li><a href="../HTML/curriculum-tecnologias.html">Conocimientos tecnológicos</a></li>
       <li><a href="../HTML/curriculum-experiencia.html">Experiencia laboral</a></li>

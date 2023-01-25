@@ -1,5 +1,5 @@
-.lista_tecnologias{
-    display:flex;
+.lista_tecnologias {
+    display: flex;
     flex-direction: column;
 }
 
@@ -20,19 +20,19 @@
     justify-content: center;
 }
 
-#office{
-    width:39vw;
+#office {
+    width: 39vw;
 
 }
 
-.icono_tecnologia{
+.icono_tecnologia {
     margin-left: 6vw;
     margin-right: 6vw;
-    width:10vw;
+    width: 10vw;
 }
 
-#php{
-    width:15vw;
-    margin-right:3vw;
-    margin-left:3vw;
+#php {
+    width: 15vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
 }

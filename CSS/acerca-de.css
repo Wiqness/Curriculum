@@ -1,8 +1,7 @@
-/* Curriculum-acerca-de */
 .acerca_de_mi {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    padding: .5em;
+    padding: .6vw;
     position: relative;
     font-size: 1.501vw;
 }
@@ -10,6 +9,6 @@
 .contenedor_acerca_de_mi {
     top: 4vh;
     position: relative;
-    height:100vh;
-    width:100%;
+    height: 100vh;
+    width: 100%;
 }

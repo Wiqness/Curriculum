@@ -1,0 +1,141 @@
+.body_active {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2.3vw
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    background: #f1f1f1;
+}
+
+.anchura_central {
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 3vh;
+    margin: auto;
+}
+
+.icono_menu {
+    width: 7vh;
+    height: 7vh;
+    background: #2c3a47;
+    color: #ffff;
+    text-align: center;
+    line-height: 7vh;
+    font-size: 3vh;
+    z-index: 1;
+    border-radius: 1.5vh;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.icono_menu:hover {
+    opacity: .9;
+    transform: scale(1.1);
+}
+
+.menu_navegacion {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #2c3a47;
+    top: 0;
+    right: -100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .6s;
+}
+
+.menu_navegacion nav {
+    display: grid;
+}
+
+.menu_navegacion li {
+    margin: 3vh 0;
+    overflow: hidden;
+}
+
+.menu_navegacion a {
+    color: #ffff;
+    font-size: 6vh;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    transform: translateY(7vh);
+}
+
+
+.menu_navegacion a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1.5vh;
+    background: #fd7474;
+    bottom: 0;
+    left: 0;
+    border-radius: 1.5vh;
+    z-index: -1;
+    transition: .3s linear;
+    width: 0%
+}
+
+.menu_navegacion a:hover::before {
+    width: 100%
+}
+
+p {
+    max-width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.icono_menu.active {
+    background: #f1f1f1;
+    color: #2c3a47;
+}
+
+.menu_navegacion.active {
+    right: 0;
+}
+
+.menu_navegacion.active a {
+    transform: translateY(0);
+    transition: .6s linear;
+}
+
+.menu_navegacion.active li:nth-child(1) a {
+    transition-delay: .2s;
+}
+
+.menu_navegacion.active li:nth-child(2) a {
+    transition-delay: .4s;
+}
+
+.menu_navegacion.active li:nth-child(3) a {
+    transition-delay: .6s;
+}
+
+.menu_navegacion.active li:nth-child(4) a {
+    transition-delay: .8s;
+}
+
+.menu_navegacion.active li:nth-child(5) a {
+    transition-delay: 1s;
+}

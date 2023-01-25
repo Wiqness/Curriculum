@@ -1,20 +1,11 @@
-/* Presentacion */
-.body_presentacion {
-    overflow: hidden;
+.contenedor_presentacion {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
-.body_presentacion_active {
-    overflow: auto;
-}
-
-.contenedor_presentacion{
-display:flex;
-flex-direction: column;
-height:100vh;
-}
-
-.contenedor_presentacion_active{
-    position:absolute;
+.contenedor_presentacion_active {
+    position: absolute;
 }
 
 .separador_color {
@@ -23,12 +14,13 @@ height:100vh;
     padding: 0px;
     display: flex;
     height: 44vh;
-    width:100%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-.imagen_arriba, .imagen_abajo{
+.imagen_arriba,
+.imagen_abajo {
     width: 100%;
     position: absolute;
     justify-content: center;
@@ -37,17 +29,20 @@ height:100vh;
     z-index: 1;
 }
 
-.imagen_arriba, .imagen_arriba_active {
+.imagen_arriba,
+.imagen_arriba_active {
     top: 0%;
     height: 50vh;
 }
 
-.imagen_abajo, .imagen_abajo_active {
+.imagen_abajo,
+.imagen_abajo_active {
     height: 60vh;
     top: 53%;
 }
 
-.imagen_arriba_active, .imagen_abajo_active {
+.imagen_arriba_active,
+.imagen_abajo_active {
     width: 100%;
     position: fixed;
     transition: 3.1s linear;
@@ -66,7 +61,7 @@ height:100vh;
 .boton_falso {
     align-items: center;
     height: 8vh;
-    width: 20vw; 
+    width: 20vw;
     background-color: #5555;
     color: white;
     text-decoration: underline;
@@ -75,12 +70,13 @@ height:100vh;
 }
 
 .texto_boton {
-    font-size: 3.7vh; 
+    font-size: 3.7vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#nombre_presentacion, #titulo_presentacion{
-    margin:auto;
+#nombre_presentacion,
+#titulo_presentacion {
+    margin: auto;
     background-color: white;
 }
 
@@ -96,5 +92,5 @@ height:100vh;
 }
 
 #titulo_presentacion {
-    font-size: 6.5vh; 
+    font-size: 6.5vh;
 }

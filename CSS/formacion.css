@@ -1,10 +1,3 @@
-/* #lista_formacion {
-    width: 100%;
-    height: 75%;
-    display: flex;
-    flex-direction: column;
-} */
-
 .icono_formacion {
     display: flex;
     margin-left: 3vh;
@@ -35,7 +28,6 @@
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: .2vh .2vh .1vh rgb(0, 0, 0);
-    /* 2px 2px 1px */
 }
 
 .contenedor_texto_formacion {
@@ -50,6 +42,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     text-shadow: .5vh .5vh 1vh rgb(0, 0, 0);
+    background: rgba(3, 3, 3, 0.5)
 }
 
 #carrera {
@@ -61,12 +54,12 @@
     margin: 0px 1vh 1vh 1vh;
 }
 
-#titulo_icono_linkedin{
-    margin-left:5vh
+#titulo_icono_linkedin {
+    margin-left: 5vh
 }
 
-#linkedin_elemento_lista{
-    margin:0px;
+#linkedin_elemento_lista {
+    margin: 0px;
 }
 
 .idiomas_texto {
