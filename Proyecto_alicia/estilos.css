@@ -1,0 +1,112 @@
+.cabezal {
+    background-color: lightseagreen;/*  //#8c0c6a */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+    gap: 1em;
+    padding-top: 1em;
+}
+
+.texto_cabezal {
+    align-content: center;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 650;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+}
+
+.logo_alicia {
+    border: solid black 0.01em;
+    background-color: lightgray;
+    height: 6em;
+    width: 6em;
+    border-radius: 1em;
+}
+.contenedor_facebook{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 0.5em;
+}
+
+.bi-facebook{
+    width: 4vw;
+    height: 4vw;
+    min-width: 2vw;
+    min-height: 2vw;
+    position: fixed;
+}
+
+.bi-facebook:hover{
+    cursor:pointer
+}
+
+.navbar_principal{
+    justify-content: center;
+}
+
+.navbar-nav{
+    gap:2em;
+}
+
+.navegador{
+    background-color: lightgray;
+}
+
+.dropdown-toggle:hover{
+background-color:black;
+color:white;
+}
+
+.no-dropdown:hover{
+    background-color:black;
+color:white;
+}
+
+.carousel{
+    width:30vw;
+    min-width: 30%;
+}
+
+.carrousel_container{
+    display:flex;
+    justify-content: center;
+}
+
+.carousel-control-prev{
+    background: black;
+    width: 3em;
+}
+
+.carousel-control-next{
+    background: black;
+    width: 3em;
+}
+
+.w-100{
+    width:30vw !important;
+    height: 30vw;
+}
+
+.opacidad-temp{
+    opacity: 0.5 !important;
+}
+
+.slick_container{
+    /* width:50%; */
+    /* margin-left:50vw; */
+    /* display:flex; */
+    /* justify-content: center; */
+    /* display: flex; */
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 100%;
+}
+
+.imagen{
+cursor:pointer;
+}
